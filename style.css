@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#box1{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+} 
+
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: black; 
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Avenir";
+    font-size: 200px;
+    text-align: center;
+}
+
+h2{
+     font-family: "Avenir";
+    font-size: 200px;
+    text-align: center;
+    color: white; 
+}
+
+
+h3{
+    font-family: "Avenir";
+    font-size: 200px;
+    text-align: center;
+}
+
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: white; 
+    display: flex;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+a{ 
+    text-decoration: none;
+    color: black; 
+}
+
+#exercises{
+    font-family: "Avenir";
+    font-size: 30px;
+    color: black; 
+    text-align: center; 
+}
+
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+
