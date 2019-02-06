@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title> Box Shadow </title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: "Avenir";
+            color: lightgrey;
+            font-size: 200px;
+            box-shadow: 0 2px 30px 0px transparent;
+            z-index: 999999;
+            position: fixed;
+            left: 250px; 
+            top: 300px; 
+        }
+        
+         h2 {
+            text-align: center;
+            font-family: "Avenir";
+            font-size: 100px;
+            color: cornflowerblue;
+            margin-top: 600px; 
+        }
+        
+         h2:hover {
+            text-align: center;
+            font-family: "Avenir";
+            font-size: 100px;
+            color: cornflowerblue;
+            margin-top: 600px;
+            box-shadow: 0px 0px 0px 100px lightblue;
+            
+        }
+        
+         h3 {
+            margin-left: 50px; 
+            font-family: "Avenir";
+            font-size: 40px;
+            color: cornflowerblue; 
+        }
+        
+        h4 {
+             margin-left: 50px; 
+            font-family: "Avenir";
+            font-size: 60px;
+            color: darkgray; 
+        }
+        
+        .pv {
+            box-shadow: 10px 20px 20px 20px lightgray inset ;
+            margin-top: 50px;
+            margin-top: 500px;
+            padding: 50px 50px 500px 50px;
+           
+        }
+        
+    
+        img {
+            height: 40vh;
+            width: 40vw;
+            margin-top: 50px; 
+        }
+
+        
+         img:hover {
+            height: 40vh;
+            width: 40vw;
+            box-shadow: 0 2px 30px 0px lightgray;
+        
+        }
+        
+        .bs {
+            box-shadow: 0 0 0 300px lightblue;
+            margin-top: 100px;
+        }
+    
+    
+    </style>
+</head>
+
+
+<body>
+    
+    <h1> Box Shadow </h1>
+    
+    <center> 
+    <img src="e1.png"> 
+    <img src="e2.png">
+    <img src="e3.png"> 
+    <img src="e4.png">
+    <img src="e5.png"> 
+    </center>
+     
+     <h2> The box-shadow property attaches one or more shadows to an element.</h2> <p>
+    
+     <div class="pv"> 
+        <center>  <h4> Property Values:</h4> </center> <p>
+        
+             <h4> none</h4><h3> - Default value. No shadow is displayed.</h3>
+             <h4> h-offset </h4> <h3>- Required. The horizontal offset of the shadow. A positive value puts the shadow on the right side of the box, a negative value puts the shadow on the left side of the box.</h3> <p> 
+             <h4>v-offset</h4><h3> - Required. The vertical offset of the shadow. A positive value puts the shadow below the box, a negative value puts the shadow above the box. </h3><p>
+             <h4>  blur </h4> <h3>- Optional. The blur radius. The higher the number, the more blurred the shadow will be.</h3><p>
+             <h4> spread </h4> <h3>- Optional. The spread radius. A positive value increases the size of the shadow, a negative value decreases the size of the shadow.</h3><p>
+             <h4> color</h4><h3> - The color of the shadow.</h3><p>
+             <h4>inset</h4> <h3> - Optional. Changes the shadow from an outer shadow (outset) to an inner shadow.</h3><p>
+             <h4>initial</h4><h3> - Sets this property to its default value. </h3><p>
+             <h4>inherit </h4> <h3> - Inherits this property from its parent element.</h3> <p>
+        
+    
+    </div> <p> 
+    <div class="bs"> </div>
+    
+</body>
+
+
+</html>
