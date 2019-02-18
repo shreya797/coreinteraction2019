@@ -3,6 +3,7 @@
     <head>
         <title> NYPL </title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <style> 
     #content{
     display: grid;
@@ -13,8 +14,8 @@
     /*grid-template-columns: 1fr 2fr 1fr;*/
     grid-template-columns: repeat(5, 1fr);
     /*grid-auto-rows: 200px;*/
-    grid-template-rows: repeat(6, 400px);
-    grid-gap: 1em;
+    /*grid-template-rows: repeat(6, 400px);*/ 
+    /*grid-gap: 1em;*/
     
 }
 
@@ -57,6 +58,27 @@ img {
                 grid-column: 4/6;
                 grid-row: 5/7;
             }
+            
+            @media(max-width: 500px) {
+    #navigation {
+        width: 100%;
+        height: auto;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    #content{
+        
+        grid-auto-rows: 200px;
+        font-size: 8px;
+        width: 50%;
+        padding: 0px;
+        grid-gap: -1em;
+    }
+    
+}
     
         </style>
     </head>

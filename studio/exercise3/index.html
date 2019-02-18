@@ -24,7 +24,7 @@
     border-width: 20px;
      position: absolute; 
      left: 40vw;
-     top: 20vh;
+     top: 22vh;
     z-index: -1;
         }
         
@@ -54,24 +54,24 @@
         }   */
         
         .white{
-     width:300px; 
-     height:300px; 
-     border-radius: 300px;
-     background: black;
+     width:200px; 
+     height:200px; 
+     border-radius: 200px;
+     background: white;
      position: absolute; 
-     left: 70vw;
-     top: 20vh;
+     left: 43.5vw;
+     top: 35vh;
     z-index: ;
         }
         
         .white2{
-     width: 110px; 
-     height: 100px; 
+     width: 100px; 
+     height: 50px; 
      border-radius: 300px;
-     background: black;
+     background: white;
      position: absolute; 
-     margin-left: 580px;
-     margin-top: 315px;
+     margin-left: 40vw;
+     margin-top: 42vh;
     z-index:1 ;
         }
         
@@ -84,8 +84,8 @@
     border: 30px solid lightpink;
     border-bottom: 0; 
     transform:rotate(-90deg); 
-    margin-left: 600px;
-    margin-top: 300px;
+    margin-left: 40.5vw;
+    margin-top: 40vh;
     position: absolute;
         z-index: 3;
         }
@@ -93,16 +93,31 @@
         #content{
             transform: rotate(10deg);
         }  
-       /* 
-        #sc{
+       
+        #text{
             font-family: "didot";
             font-size: 50px;
-            color: white;
+            color: lightpink;
             position: absolute;
-            margin-top: 700px;
-            margin-left: 510px;
-        } */ 
-        
+            margin-top: 75vh;
+            margin-left: 30vw;
+        }
+         @media(max-width: 500px) {
+             #text{
+                  font-family: "didot";
+            font-size: 30px;
+            color: lightpink;
+            position: absolute;
+            margin-top: 75vh;
+            margin-left: 30vw;
+             }
+             
+             #wrapper {
+                 width: 100%;
+                 height: auto;
+             }
+             
+        }
         
     </style>    
 
@@ -111,6 +126,7 @@
     
 <body>
     <center>
+        <div id="wrapper">
     <div id="content"> 
     <div class="topleft"> </div>
     <div class="white"> </div>
@@ -119,7 +135,8 @@
     <div class="white2"> </div>
     <div class="c"> </div>
     </div>
-   
+            <div id ="text"> Shreya Chittaranjan</div>
+   </div>
         
 </center>
     
