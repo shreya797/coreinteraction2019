@@ -1,0 +1,117 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+   
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+
+#navigation{
+    width: 200px;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    background-color: black; 
+    float: left;
+}
+
+#logo{
+    color: white;
+    font-family: "avenir"; 
+}
+
+#logo h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px; 
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.nav-link{
+    background-color: none;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.nav-link a{
+    color: white; 
+    text-decoration: none;
+    font-family: "avenir"; 
+}
+
+#content {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    padding: 100px 25px 100px 25px;
+    float: top; 
+}
+
+p {
+    font-family: "avenir";
+    font-size: 20px;     
+}
+
+#navigation.top{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    display: table; 
+}
+
+#navigation.top #logo{
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+#navigation.top #logo h1{
+    padding: 10px 10px 10px 10px;
+}
+
+#navigation.top .nav-link{
+    float: left;
+    margin: 10px 70px 0px 10px;
+    padding: 15px 0px 0px 180px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media(max-width: 500px) {
+    #navigation {
+        width: 100%;
+        height: 100%;
+    }
+    
+    content {
+        width: 100vw;
+        font-size: 20px; 
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
