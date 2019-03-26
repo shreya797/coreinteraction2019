@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title> JS/JQUERY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+
+  <style>
+    
+    .clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: lightpink; 
+    border: 6px solid lightblue;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+    
+    .hour-hand {
+    width: 4px;
+    height: 55px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    left: 98px;
+}
+
+.minute-hand {
+    width: 4px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 98px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 99px;
+}
+
+.pin {
+    width: 10px;
+    height: 10px;
+    background: lightblue;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+    
+      
+.hour-hand,
+.minute-hand,
+.second-hand {
+    transform-origin: 50% 100%;
+}
+    
+ </style>  
+    
+    
+    
+    
+</head>    
+    
+<body>
+
+    <div class="clock">
+    <div class="minute-hand"></div>
+    <div class="hour-hand"></div>
+    <div class="second-hand"></div>
+    <div class="pin"></div>
+    
+    </div>
+
+</body>
+   
+</html>
