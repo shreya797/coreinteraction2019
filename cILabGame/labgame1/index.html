@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<title>JavaScript - Move Object with Arrow Keys using JavaScript Function.</title>
-        <style>
+        
+ <style>
             #char{
                 height: 50px;
                 width: 50px;
@@ -13,7 +14,16 @@
             
             }
         
-        
+            #obj {
+                 height: 100px;
+                width: 100px;
+                border-radius: 100%;
+                background-color: red;
+                top: 20;
+                left: 200;
+                position: absolute;
+            
+            }
         
         </style>
 		<script type="text/javascript">
@@ -55,12 +65,40 @@
 				objImage.style.top=parseInt(objImage.style.top)+5 +'px';
 			}
 			window.onload=init;
+            
+            function detect(){
+            var c1 = document.getElementById("char");
+            var c2 = document.getElementById("obj"); 
+            
+            var dx = c2.style.left - c1.style.left;
+            var dy = c2.style.top - c1.style.top; 
+            var distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance > dy) {
+                c1.color = "red";}
+                else { c1.color = "black"; 
+            }    console.log(distance); 
+            }
+         
+           
+            
 		</script>
 	</head>
 
 	<body onkeydown='getKeyAndMove(event)'>
 
         <div id="char"> </div>
-		
+		<div id="obj"> </div>
 	</body>
+</html>
+
+    
+    
+    
+    
+    
+    
+    
+</body>
+     
 </html>

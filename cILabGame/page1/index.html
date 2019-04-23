@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title> JS/JQUERY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+
+  <style>
+    
+       #path{
+          width: 100vw;
+          height: 25px;
+          background-color: black;
+          position: absolute;
+          margin-top: 50px;
+        
+      }
+      
+      #char{
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+                background-color: lightpink;
+                top: 100;
+                left: 0;
+                z-index: 1;
+            }
+        
+   
+
+
+.second-hand {
+    width: 10px;
+    height: 1500px;
+    background: black;
+    position: absolute;
+    top: -500px;
+    left:-10px;
+}
+
+
+    
+      
+
+.second-hand {
+    transform-origin: 50% 100%;
+}
+      
+ 
+      
+      #img1{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 1000px;
+          margin-top: 400px;
+      }
+      
+        #img2{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 500px; 
+
+      }
+
+       #img3{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 1100px;
+          margin-top: 10px;
+            
+      }
+      
+      #img4{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 100px;
+          margin-top: 500px;
+            
+      }
+      
+        #img5{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: -50px;
+          margin-top: 0px;
+            
+      }
+      
+    
+
+      .imgs {
+
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+  
+  
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+      
+    
+ </style>  
+    
+    
+</head>    
+    
+<body onkeydown='getKeyAndMove(event)'>
+
+        <div id="char"> </div>
+		<div id="obj"> </div>
+
+    <div class="clock">
+    <div class="second-hand"></div>
+    </div>
+    
+    <div class = "imgs"> 
+    <div id = "img1"> <img src = "page1e.png"> </div>
+    <div id = "img2"> <img src = "page1b.png"> </div>
+    <div id = "img3"> <img src = "page1c.png"> </div>
+    <div id = "img4"> <img src = "page1d.png"> </div>
+    <div id = "img5"> <img src = "page1f.png"> </div>
+    </div>
+    
+     <div id = "path"> </div>
+    
+    
+    
+
+
+</body>
+   
+</html>
