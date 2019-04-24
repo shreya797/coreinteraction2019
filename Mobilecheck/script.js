@@ -5,7 +5,7 @@ var width = doc.width() - 100;
 var height = doc.height() - 100;
     
 
-var shapes = [ $(".circle"), $(".triangle"), $(".square")]
+var shapes = [ $(".sm"), $(".sm2")]
     
 function randomStuff(){
     
