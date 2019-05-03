@@ -1786,45 +1786,58 @@ body{
 
 
 #small{
-    animation: shrink 5s ease;
+    animation: shrink 12s ease ;
+    animation-delay: 3s;
+    animation-fill-mode: both;
     
+    
+}
+
+#color {
+    animation: color 10s ease;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
     
 }
 
 
 
 
-
   @keyframes shrink {
     0% {
-      transform: scale(.1);
+      transform: scale();
     }
       
       20% {
-          transform: scale(.2);
+          transform: scale();
       }
       
         30% {
-          transform: scale(.3);
+          transform: scale();
       }
       
         40% {
-          transform: scale(.4);
+          transform: scale();
       }
       
        50% {
-          transform: scale(.5);
+          transform: scale();
       }
       
       
    
     100% {
-      transform: scale(.6);
+      transform: scale(0.05);
     }
 
 
 
-
+      @keyframes color {
+         from   {background-color:; }
+       
+          to {color:#987654; }
+}
+   
 
 
 
