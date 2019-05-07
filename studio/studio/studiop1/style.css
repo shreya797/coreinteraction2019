@@ -1,0 +1,736 @@
+html{
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+   overflow-x: hidden;
+     height: 2000px;
+    background: radial-gradient(circle, #001a33, #000d1a , black 80%); 
+   
+    
+}
+
+##bground {
+    height: 100vh;
+    width: 100vw; 
+    background: radial-gradient(circle, #001a33, #000d1a , black 80%); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
+
+#box{
+    font-family: "didot";
+    color: white;
+    font-size: 100px;
+    top: 2vh;
+    left: 10vw; 
+    position: absolute;
+   
+}
+
+#box2{
+    font-family: "didot";
+    color: white;
+    font-size: 100px;
+    top: 60vh;
+    left: 15vw; 
+    position: absolute;
+   
+}
+
+#box3{
+    font-family: "avenir";
+    color: white;
+    font-size: 12px;
+    top: 55vh;
+    left: 16vw; 
+    position: absolute;
+   
+}
+
+#box4{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 57vh;
+    left: 37vw; 
+    position: absolute;
+   
+}
+
+#box5{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 50vh;
+    left: 21vw; 
+    position: absolute;
+}
+
+#box6{
+    font-family: "avenir";
+    color: white;
+    font-size: 6px; 
+     top: 50vh;
+    left: 29vw;
+    position: absolute;
+}
+
+#box7{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 60vh;
+    left: 40vw; 
+    position: absolute;
+}
+
+#box8{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 60vh;
+    left: 32vw; 
+    position: absolute;
+}
+
+
+#box9{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 60vh;
+    left: 25vw; 
+    position: absolute;
+}
+
+#box10{
+    font-family: "avenir";
+    color: white;
+    font-size: 12px;
+    top: 60vh;
+    left: 15vw; 
+    position: absolute;
+   
+}
+
+#box11{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 48vh;
+    left: 40vw; 
+    position: absolute;
+}
+
+
+#box12{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 55vh;
+    left: 31vw; 
+    position: absolute;
+}
+
+
+#box13{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 50vh;
+    left: 35vw; 
+    position: absolute;
+}
+
+#box14{
+    font-family: "avenir";
+    color: white;
+    font-size: 4px;
+    top: 40vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box15{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 30vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box16{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 35vh;
+    left: 29vw; 
+    position: absolute;
+}
+
+#box17{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 27vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box18{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 25vh;
+    left: 24vw; 
+    position: absolute;
+}
+
+#box19{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 32vh;
+    left: 28vw; 
+    position: absolute;
+}
+
+#box20{
+    font-family: "avenir";
+    color: white;
+    font-size: 4px;
+    top: 39vh;
+    left: 35vw; 
+    position: absolute;
+}
+
+#box21{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 45vh;
+    left: 25vw; 
+    position: absolute;
+}
+
+#box22{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 46vh;
+    left: 32vw; 
+    position: absolute;
+}
+
+#box23{
+    font-family: "avenir";
+    color: white;
+    font-size: 15px;
+    top: 55vh;
+    left: 22vw; 
+    position: absolute;
+}
+
+#box24{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 43vh;
+    left: 18vw; 
+    position: absolute;
+}
+
+#box25{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 55vh;
+    left: 40vw; 
+    position: absolute;
+}
+
+#box26{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 21vh;
+    left: 26vw; 
+    position: absolute;
+}
+
+#box27{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 25vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box28{
+    font-family: "avenir";
+    color: white;
+    font-size: 1px;
+    top: 19.5vh;
+    left: 29vw; 
+    position: absolute;
+}
+
+#box29{
+    font-family: "avenir";
+    color: white;
+    font-size: 6px;
+    top: 43vh;
+    left: 38vw; 
+    position: absolute;
+}
+
+#box30{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 35vh;
+    left: 20vw; 
+    position: absolute;
+}
+
+
+#box31{
+    font-family: "avenir";
+    color: white;
+    font-size: 1px;
+    top: 23vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box32{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 55vh;
+    left: 27vw; 
+    position: absolute;
+}
+
+#box33{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 38vh;
+    left: 20vw; 
+    position: absolute;
+}
+
+#box34{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 43vh;
+    left: 34vw; 
+    position: absolute;
+}
+
+#box35{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 42vh;
+    left: 25vw; 
+    position: absolute;
+}
+
+#box36{
+    font-family: "avenir";
+    color: white;
+    font-size: .9px;
+    top: 14.5vh;
+    left: 27vw; 
+    position: absolute;
+}
+
+#box37{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 37vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box38{
+    font-family: "avenir";
+    color: white;
+    font-size: 1px;
+    top: 18vh;
+    left: 28.5vw; 
+    position: absolute;
+}
+
+#box39{
+    font-family: "avenir";
+    color: white;
+    font-size: 8px;
+    top: 52vh;
+    left: 39vw; 
+    position: absolute;
+}
+
+#box40{
+    font-family: "avenir";
+    color: white;
+    font-size: 10px;
+    top: 52vh;
+    left: 15vw; 
+    position: absolute;
+}
+
+
+#box41{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 21vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+#box42{
+    font-family: "avenir";
+    color: white;
+    font-size: 7px;
+    top: 47vh;
+    left: 18vw; 
+    position: absolute;
+}
+
+#box43{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 46vh;
+    left: 36vw; 
+    position: absolute;
+}
+
+#box44{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 27vh;
+    left: 26vw; 
+    position: absolute;
+}
+
+#box45{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 43vh;
+    left: 30vw; 
+    position: absolute;
+}
+
+
+
+#box46{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 35vh;
+    left: 34vw; 
+    position: absolute;
+}
+
+#box47{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 19vh;
+    left: 26vw; 
+    position: absolute;
+}
+
+#box48{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 34vh;
+    left: 26vw; 
+    position: absolute;
+}
+
+#box49{
+    font-family: "avenir";
+    color: white;
+    font-size: 4px;
+    top: 37vh;
+    left: 26vw; 
+    position: absolute;
+}
+
+#box50{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 27vh;
+    left: 23vw; 
+    position: absolute;
+}
+
+#box51{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 32vh;
+    left: 33vw; 
+    position: absolute;
+}
+
+#box52{
+    font-family: "avenir";
+    color: white;
+    font-size: 1px;
+    top: 17vh;
+    left: 26.5vw; 
+    position: absolute;
+}
+
+
+
+#box53{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 23vh;
+    left: 28vw; 
+    position: absolute;
+}
+
+#box54{
+    font-family: "avenir";
+    color: white;
+    font-size: 5px;
+    top: 32vh;
+    left: 24vw; 
+    position: absolute;
+}
+
+#box55{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 23vh;
+    left: 25vw; 
+    position: absolute;
+}
+
+#box56{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 29vh;
+    left: 27vw; 
+    position: absolute;
+}
+#box57{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 32vh;
+    left: 21vw; 
+    position: absolute;
+}
+
+#box58{
+    font-family: "avenir";
+    color: white;
+    font-size: 3px;
+    top: 29vh;
+    left: 23vw; 
+    position: absolute;
+}
+
+#box59{
+    font-family: "avenir";
+    color: white;
+    font-size: 2px;
+    top: 25vh;
+    left: 27vw; 
+    position: absolute;
+}
+
+#box60{
+    font-family: "avenir";
+    color: white;
+    font-size: 1px;
+    top: 16.2vh;
+    left: 28vw; 
+    position: absolute;
+}
+
+#box61{
+    font-family: "avenir";
+    color: white;
+    font-size: .5px;
+    top: 10vh;
+    left: 26.5vw; 
+    position: absolute;
+}
+
+#box62{
+    font-family: "avenir";
+    color: white;
+    font-size: .5px;
+    top: 15.8vh;
+    left: 26.5vw; 
+    position: absolute;
+}
+
+#box63{
+    font-family: "didot";
+    color: #262626;
+    font-size: 80px;
+    top: 100px;
+    left: 50px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box64{
+     font-family: "didot";
+    color: #262626;
+    font-size: 100px;
+    top: 400px;
+    left: 400px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box65{
+     font-family: "didot";
+    color: #262626;
+    font-size: 100px;
+    top: 300px;
+    left: -400px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box66{
+     font-family: "didot";
+    color: #111111;
+    font-size: 40px;
+    top: 80px;
+    left: 1200px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box67{
+     font-family: "didot";
+    color: #111111;
+    font-size: 50px;
+    top: 600px;
+    left: -100px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box68{
+     font-family: "didot";
+    color: #111111;
+    font-size: 70px;
+    top: 200px;
+    left: 800px;
+    position: absolute;
+    z-index: -1; 
+}
+
+#box69{
+    font-family: "didot";
+    color: #262626;
+    font-size: 60px;
+    top: 150px;
+    left: 1000px;
+    position: absolute;
+    z-index: -1; 
+  transform: translate(-50%, -50%);
+}
+
+#box70{
+     font-family: "didot";
+    color: #262626;
+    font-size: 100px;
+    top: 800px;
+    left: 100px;
+    position: absolute;
+    z-index: -1; 
+}
+
+
+
+
+
+
+
+/*#angle{
+    transform: perspective(500px) rotateX(25deg);
+}*/ 
+
+
+#container {
+  width: 1000px;
+  height: 200px;
+margin-top: -300px;
+    margin-left: -200px;
+}
+
+   
+
+
+
+#tls {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100vw;
+  height: auto;
+  color:deeppink; 
+z-index: 1;
+}
+
+
+
+
+
+.glow {
+ 
+  text-shadow: 0 0 3px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
