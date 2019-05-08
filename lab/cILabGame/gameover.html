@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <title> Game Over</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<style>
+    #over{
+        font-family: "Avenir";
+        font-size: 200px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 950px;
+        color: grey;
+    }
+    
+     #game{
+        font-family: "Avenir";
+        font-size: 200px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 100px;
+        color: grey;
+    }
+    
+    
+
+ .clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: grey; 
+    border: 6px solid lightblue;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+    
+    .hour-hand {
+    width: 4px;
+    height: 55px;
+    background: white;
+    position: absolute;
+    top: 45px;
+    left: 98px;
+}
+
+.minute-hand {
+    width: 4px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 98px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    left: 99px;
+}
+
+.pin {
+    width: 10px;
+    height: 10px;
+    background: lightblue;
+    border-radius: 10px;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+    
+      
+.hour-hand,
+.minute-hand,
+.second-hand {
+    transform-origin: 50% 100%;
+}
+  
+    
+   
+    
+      
+   a{
+        font-family: "Avenir";
+        font-size: 30px;
+        position: absolute;
+        color: darkslategray;
+        margin-top: 600px;
+        margin-left: 700px;
+       text-decoration: none;
+    }
+    
+</style>    
+</head>
+
+
+    
+    
+<body>
+    
+<div id="game"> Game </div>
+<div id="over">  ver </div>
+    
+<div id=""> <a href="index.html"> Try Again </a> </div>  
+    
+ <div class="clock">
+    <div class="minute-hand"></div>
+    <div class="hour-hand"></div>
+    <div class="second-hand"></div>
+    <div class="pin"></div>
+    
+    </div> 
+    
+    
+  <script>
+    
+    $(document).ready(function() {
+
+setInterval(function(){
+    var dt = new Date();
+    //alert(time);
+
+    var sec_deg = dt.getSeconds() * 6;
+    var min_deg = dt.getMinutes() * 6;
+    var hr_deg = dt.getHours() * 30;
+
+    $('.clock .second-hand').css({'transform':'rotate(' + sec_deg + 'deg)'});
+
+    $('.clock .minute-hand').css({'transform':'rotate(' + min_deg + 'deg)'});
+
+    $('.clock .hour-hand').css({'transform':'rotate(' + hr_deg + 'deg)'});
+
+}, 1000);
+
+});
+
+    
+    
+</script>  
+    
+    
+</body>
+
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <title> JS/JQUERY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"> </script>
+
+  <style>
+       body{
+          overflow-x: hidden;
+          overflow-y: hidden;
+      }
+      
+     #path{
+          width: 100vw;
+          height: 25px;
+          background-color: black;
+          position: absolute;
+          margin-top: 500px;
+        
+      }
+      
+      #char{
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+                background-color: red;
+                top: 100;
+                left: 0;
+                z-index: 1;
+            }
+     
+   
+
+
+.second-hand {
+    width: 10px;
+    height: 1500px;
+    background: black;
+    position: absolute;
+    top: -500px;
+    left:-10px;
+}
+
+
+    
+      
+
+.second-hand {
+    transform-origin: 50% 100%;
+}
+      
+ 
+      
+      #img1{
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          margin-left: 50px;
+          margin-top: 50px;
+          animation: Orbit1 3s linear infinite
+      }
+      
+        #img2{
+          position: absolute;
+          width: 50px;
+          height: 350px;
+          margin-left: 1250px;
+          animation: Orbit2 5s linear infinite
+
+      }
+
+       #img3{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 800px;
+          margin-top: 550px;
+          animation: spin 5s infinite; 
+          z-index: -2; 
+      }
+      
+      #trophy{
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          margin-left: 1500px;
+          margin-top: 300px;
+          animation: blinking 1s;
+          animation-iteration-count: infinite;
+            
+      }
+      
+       @keyframes Orbit1 {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+      
+        @keyframes Orbit2 {
+    from { transform: rotate(0deg)  rotate(0deg); }
+    to   { transform: rotate(360deg)  rotate(360deg); }
+}
+      
+     @keyframes spin{
+    0%{
+    transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(360deg);
+    }
+}
+}
+      
+ 
+      @keyframes blinking {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+     
+ </style>  
+    
+    
+</head>    
+    
+<body onkeydown='getKeyAndMove(event)'>
+
+        <div id="char"> </div>
+		<div id="obj"> </div>
+
+    <div class="clock">
+    <div class="second-hand"></div>
+    </div>
+     <div id = "path"> </div>
+    
+    <div class = "imgsa"> 
+    <div id = "img1"> <img src = "2.png"> </div>
+    <div id = "img2"> <img src = "3.png"> </div>
+    <div id = "img3"> <img src = "4.png"> </div>
+    <div id = "trophy"> <img src = "trophy.png"> </div>
+   
+    </div>
+
+    
+    <button onclick="myFunction()">Get top-left corner + witdth and height of the element with red border</button>
+    
+
+
+</body>
+   
+</html>

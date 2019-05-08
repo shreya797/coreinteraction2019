@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title> Level 1 Instructions</title>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<style>
+    #over{
+        font-family: "Avenir";
+        font-size: 200px;
+        text-align: center;
+    }
+
+ 
+    
+    #again{
+        font-family: "Avenir";
+        font-size: 60px;
+        position: absolute;
+        color: darkslategray;
+        margin-top: 100px;
+        margin-left: 800px;
+    }
+    
+    #right {
+        width: 0; 
+        height: 0; 
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-left: 80px solid darkslategrey;
+        position: absolute;
+        margin-left: 710px;
+        margin-top: 100px;
+    }
+
+    #press{
+        font-family: "Avenir";
+        font-size: 60px;
+        position: absolute;
+        color: darkslategray;
+        margin-top: 100px;
+        margin-left: 550px;
+    }
+    
+</style>    
+    
+    
+
+</head>
+
+
+    
+    
+<body>
+    
+
+    
+<div id="again"> key to move </div>  
+<div id="press"> Press </div>
+ 
+<div id="right"> </div>
+ 
+    
+    
+  <script>
+    
+    $(document).ready(function() {
+
+function finish() {
+     window.location = "page1/index.html";
+}
+
+setTimeout(finish, 3000);
+  
+});
+
+    
+    
+</script>  
+    
+    
+</body>
+
+
+</html>
